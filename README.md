@@ -24,8 +24,8 @@ the code
 
 #include <Servo.h>
 
-int servosignal = 0; 
-int servosignall = 0; 
+int servosignal = 2; 
+int servosignall = 3; 
 int servosignalll = 4; 
 int servosignallll = 5; 
 int servosignalllll = 6; 
@@ -45,28 +45,42 @@ void setup()
 
   servo3.attach(4, 500, 2500);
 
-  servo4.attach(6, 500, 2500);
+  servo4.attach(5, 500, 2500);
 
-  servo5.attach(5, 500, 2500);
+  servo5.attach(6, 500, 2500);
 
   }
 
 void loop()
 {
-  
-  servosignal = 0;
+
+  servosignal= 2;
   for (servosignal = 1; servosignal <= 89; servosignal += 1) {
     servo1.write(servosignal);
  delay(17);
+
   }
   
-  for (servosignal = 1; servosignal >= 89; servosignal -= 1) {
-    servo1.write(servosignal);
-  }
 
-  servosignall = 0;
+  servosignall = 3;
   for (servosignall = 1; servosignall <= 89; servosignall += 1) {
     servo2.write(servosignall);
+ delay(17);
+  }
+  
+   servosignalll = 4;
+  for (servosignalll = 1; servosignalll <= 89; servosignalll += 1) {
+    servo3.write(servosignalll);
+ delay(17);
+  }
+  servosignallll = 5;
+  for (servosignallll = 1; servosignallll <= 89; servosignallll += 1) {
+    servo4.write(servosignallll);
+ delay(17);
+  }
+   servosignalllll = 6;
+  for (servosignalllll = 1; servosignalllll <= 89; servosignalllll += 1) {
+    servo5.write(servosignalllll);
  delay(17);
   }
   servo1.write(90);
@@ -78,9 +92,7 @@ void loop()
   delay (17);
  
     
-    
  }
-
 
 tinkercad link 
 
