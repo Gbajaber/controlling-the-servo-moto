@@ -9,15 +9,8 @@ Tinkercad is the website that used to create servos motor circuit
 The objective to move the motors at an angle of 90 degrees
 
 componets 
-
-Name	      Quantity      	Component
- U1	            1	         Arduino Uno R3
-                           
-SERVO1 
-SERVO2
-SERVO3        5           Positional Micro Servo
-SERVO5
-SERVO6	 
+Arduino Uno R3 = 1 
+Positional Micro Servo = 5
 
 
 the code 
