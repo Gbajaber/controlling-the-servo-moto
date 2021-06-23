@@ -1,5 +1,4 @@
-
-  for (servosignal = 1;#include <Servo.h>
+  #include <Servo.h>
 
 int servosignal = 2; 
 int servosignall = 3; 
@@ -30,7 +29,9 @@ void setup()
 
 void loop()
 {
-  servosignal = 2; servosignal <= 89; servosignal += 1) {
+
+  servosignal= 2;
+  for (servosignal = 1; servosignal <= 89; servosignal += 1) {
     servo1.write(servosignal);
  delay(17);
 
