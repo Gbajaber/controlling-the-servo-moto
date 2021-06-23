@@ -79,9 +79,10 @@ void loop()
  
     
     
-    
  }
 
 
+tinkercad link 
 
+https://www.tinkercad.com/things/l7nLEOY9QLn-servo-motor/editel
 
